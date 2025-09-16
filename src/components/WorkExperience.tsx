@@ -51,24 +51,24 @@ export default function WorkExperience() {
                   <span>October 2023 – Present</span>
                 </div>
                 <ul className="space-y-2 text-gray-200">
-                  <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-2">▸</span>
+                  <li className="flex items-start gap-3">
+                    <span className="text-blue-400 mt-1.5 text-sm">▸</span>
                     <span>
                       Contributed to the development of a container tracking
                       system at A2ZPort, utilizing React.js and Next.js to
                       enhance web application functionality and user experience.
                     </span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-2">▸</span>
+                  <li className="flex items-start gap-3">
+                    <span className="text-blue-400 mt-1.5 text-sm">▸</span>
                     <span>
                       Translated designs and wireframes into high-quality,
                       responsive code, ensuring seamless integration between UI
                       and backend functionalities.
                     </span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-2">▸</span>
+                  <li className="flex items-start gap-3">
+                    <span className="text-blue-400 mt-1.5 text-sm">▸</span>
                     <span>
                       Played a key role in ensuring system reliability through
                       Cypress testing, underscoring a commitment to delivering a
@@ -99,15 +99,15 @@ export default function WorkExperience() {
                   <span>Aug 2022 – April 2023</span>
                 </div>
                 <ul className="space-y-2 text-gray-200">
-                  <li className="flex items-start gap-2">
-                    <span className="text-purple-400 mt-2">▸</span>
+                  <li className="flex items-start gap-3">
+                    <span className="text-purple-400 mt-1.5 text-sm">▸</span>
                     <span>
                       Enhanced web application functionality and user experience
                       with React.js and Next.js.
                     </span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-purple-400 mt-2">▸</span>
+                  <li className="flex items-start gap-3">
+                    <span className="text-purple-400 mt-1.5 text-sm">▸</span>
                     <span>
                       Developed reusable components and libraries in JavaScript,
                       TypeScript, React.js, and Next.js for efficient future
@@ -135,16 +135,16 @@ export default function WorkExperience() {
                   <span>Oct 2019 - Mar 2020</span>
                 </div>
                 <ul className="space-y-2 text-gray-200">
-                  <li className="flex items-start gap-2">
-                    <span className="text-green-400 mt-2">▸</span>
+                  <li className="flex items-start gap-3">
+                    <span className="text-green-400 mt-1.5 text-sm">▸</span>
                     <span>
                       Diligently addressed computer issues: hardware, software
                       troubleshooting, installations, updates, and routine
                       maintenance.
                     </span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-green-400 mt-2">▸</span>
+                  <li className="flex items-start gap-3">
+                    <span className="text-green-400 mt-1.5 text-sm">▸</span>
                     <span>
                       Provided timely, effective technical support via phone,
                       email, and in-person interactions.

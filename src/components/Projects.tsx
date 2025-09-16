@@ -74,14 +74,24 @@ export default function Projects() {
                 React Query
               </span>
             </div>
-            <a
-              href="https://github.com/Ardhendu-init"
-              target="_blank"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-300"
-            >
-              <Github className="w-4 h-4" />
-              <span>View Code</span>
-            </a>
+            <div className="flex gap-2">
+              <a
+                href="https://www.ivca.in/"
+                target="_blank"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-300"
+              >
+                <ExternalLink className="w-4 h-4" />
+                <span>Live Site</span>
+              </a>
+              <a
+                href="https://github.com/Ardhendu-init"
+                target="_blank"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition-colors duration-300"
+              >
+                <Github className="w-4 h-4" />
+                <span>Code</span>
+              </a>
+            </div>
           </motion.div>
 
           <motion.div
@@ -117,14 +127,24 @@ export default function Projects() {
                 Prisma
               </span>
             </div>
-            <a
-              href="https://github.com/Ardhendu-init"
-              target="_blank"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg transition-colors duration-300"
-            >
-              <Github className="w-4 h-4" />
-              <span>View Code</span>
-            </a>
+            <div className="flex gap-2">
+              <a
+                href="https://food-app-ardhendu-init.vercel.app/"
+                target="_blank"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg transition-colors duration-300"
+              >
+                <ExternalLink className="w-4 h-4" />
+                <span>Live Site</span>
+              </a>
+              <a
+                href="https://github.com/Ardhendu-init"
+                target="_blank"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition-colors duration-300"
+              >
+                <Github className="w-4 h-4" />
+                <span>Code</span>
+              </a>
+            </div>
           </motion.div>
 
           <motion.div
@@ -159,14 +179,24 @@ export default function Projects() {
                 Styled Components
               </span>
             </div>
-            <a
-              href="https://github.com/Ardhendu-init"
-              target="_blank"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors duration-300"
-            >
-              <Github className="w-4 h-4" />
-              <span>View Code</span>
-            </a>
+            <div className="flex gap-2">
+              <a
+                href="https://fashnest.netlify.app/"
+                target="_blank"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors duration-300"
+              >
+                <ExternalLink className="w-4 h-4" />
+                <span>Live Site</span>
+              </a>
+              <a
+                href="https://github.com/Ardhendu-init"
+                target="_blank"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition-colors duration-300"
+              >
+                <Github className="w-4 h-4" />
+                <span>Code</span>
+              </a>
+            </div>
           </motion.div>
         </motion.div>
 

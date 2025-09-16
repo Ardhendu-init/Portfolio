@@ -11,6 +11,7 @@ import {
   Database,
   GraduationCap,
   Brain,
+  Download,
 } from "lucide-react";
 import WorkExperience from "@/components/WorkExperience";
 import Projects from "@/components/Projects";
@@ -46,10 +47,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <motion.div className="text-center" variants={fadeInUp}>
-            <div className="w-40 h-40 mx-auto mb-8 relative">
+            <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-8 relative">
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-white/20 shadow-2xl bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
                 <Image
-                  src="/images/profile-photo.jpg"
+                  src="/images/Ardhendu-Pramanik.png"
                   alt="Ardhendu Pramanik"
                   width={160}
                   height={160}
@@ -65,9 +66,6 @@ export default function Home() {
                     }
                   }}
                 />
-              </div>
-              <div className="absolute -bottom-2 -right-2 w-12 h-12 bg-gradient-to-r from-green-500 to-blue-600 rounded-full flex items-center justify-center border-4 border-slate-900">
-                <span className="text-white font-bold text-lg">AP</span>
               </div>
             </div>
 
@@ -121,6 +119,14 @@ export default function Home() {
                 <Linkedin className="w-5 h-5" />
                 <span>LinkedIn</span>
               </a>
+              <a
+                href="/resume/Ardhendu_Pramanik_Resume.pdf"
+                download="Ardhendu_Pramanik_Resume.pdf"
+                className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 rounded-full text-white transition-all duration-300"
+              >
+                <Download className="w-5 h-5" />
+                <span>Download Resume</span>
+              </a>
             </motion.div>
           </motion.div>
         </div>
@@ -168,7 +174,9 @@ export default function Home() {
                 <Code className="w-8 h-8 text-blue-400" />
                 <h3 className="text-xl font-semibold text-white">Languages</h3>
               </div>
-              <p className="text-gray-300">JavaScript, TypeScript, Java, SQL</p>
+              <p className="text-gray-300">
+                JavaScript, TypeScript, Java, Python, SQL
+              </p>
             </motion.div>
 
             <motion.div
@@ -197,7 +205,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-white">Technology</h3>
               </div>
               <p className="text-gray-300">
-                Git, MySQL, MongoDB, Prisma, Stripe
+                Git, MySQL, MongoDB, Prisma, Stripe, pandas, numpy
               </p>
             </motion.div>
 
@@ -224,6 +232,24 @@ export default function Home() {
             >
               <div className="flex items-center gap-3 mb-4">
                 <Brain className="w-8 h-8 text-red-400" />
+                <h3 className="text-xl font-semibold text-white">
+                  AI/ML Learning
+                </h3>
+              </div>
+              <p className="text-gray-300">
+                Currently learning Machine Learning, Deep Learning, and AI
+                concepts. Exploring data science with Python, pandas, and numpy
+                for building intelligent applications.
+              </p>
+            </motion.div>
+
+            <motion.div
+              className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300"
+              variants={fadeInUp}
+              whileHover={{ y: -5 }}
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <Brain className="w-8 h-8 text-indigo-400" />
                 <h3 className="text-xl font-semibold text-white">
                   Other Skills
                 </h3>
