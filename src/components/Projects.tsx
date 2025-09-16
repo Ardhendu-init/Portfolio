@@ -83,14 +83,6 @@ export default function Projects() {
                 <ExternalLink className="w-4 h-4" />
                 <span>Live Site</span>
               </a>
-              <a
-                href="https://github.com/Ardhendu-init"
-                target="_blank"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition-colors duration-300"
-              >
-                <Github className="w-4 h-4" />
-                <span>Code</span>
-              </a>
             </div>
           </motion.div>
 
@@ -137,11 +129,10 @@ export default function Projects() {
                 <span>Live Site</span>
               </a>
               <a
-                href="https://github.com/Ardhendu-init"
+                href="https://github.com/Ardhendu-init/Food-App"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition-colors duration-300"
               >
-                <Github className="w-4 h-4" />
                 <span>Code</span>
               </a>
             </div>
@@ -189,11 +180,10 @@ export default function Projects() {
                 <span>Live Site</span>
               </a>
               <a
-                href="https://github.com/Ardhendu-init"
+                href="https://github.com/Ardhendu-init/Frontend-Fashnest"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition-colors duration-300"
               >
-                <Github className="w-4 h-4" />
                 <span>Code</span>
               </a>
             </div>

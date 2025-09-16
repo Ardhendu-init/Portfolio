@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GitBranch, Brain, FileText, Github, ExternalLink } from "lucide-react";
+import { GitBranch, Brain, FileText, Github } from "lucide-react";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
@@ -78,13 +78,6 @@ export default function Achievements() {
               Solved 400+ problems based on Data Structures and Algorithms on
               LeetCode and GeeksForGeeks.
             </p>
-            <a
-              href="#"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors duration-300"
-            >
-              <ExternalLink className="w-5 h-5" />
-              <span>View Profile</span>
-            </a>
           </motion.div>
 
           <motion.div
@@ -104,7 +97,7 @@ export default function Achievements() {
               subjects.
             </p>
             <a
-              href="#"
+              href="https://medium.com/@Ardhendu_init_"
               className="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors duration-300"
             >
               <FileText className="w-5 h-5" />

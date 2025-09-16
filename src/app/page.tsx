@@ -81,7 +81,7 @@ export default function Home() {
               variants={fadeInUp}
             >
               A passionate Software Developer | Javascript, React, Next.js,
-              Express, Node, Java | B.Tech in Electronics and Communication |
+              Express, Node, Python | B.Tech in Electronics and Communication |
               Goal oriented and focused
             </motion.p>
 
@@ -175,7 +175,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-white">Languages</h3>
               </div>
               <p className="text-gray-300">
-                JavaScript, TypeScript, Java, Python, SQL
+                JavaScript, TypeScript, Python, SQL
               </p>
             </motion.div>
 

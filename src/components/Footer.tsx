@@ -19,10 +19,7 @@ export default function Footer() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-gray-400 mb-4">
-          © 2024 Ardhendu Pramanik. All rights reserved.
-        </p>
-        <p className="text-gray-500">
-          Built with Next.js, TypeScript, and Tailwind CSS
+          © 2025 Ardhendu Pramanik. All rights reserved.
         </p>
       </div>
     </motion.footer>
