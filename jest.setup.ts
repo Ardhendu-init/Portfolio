@@ -13,6 +13,5 @@ class MockIntersectionObserver {
   }
 }
 
-// @ts-expect-error
 (global as any).IntersectionObserver =
   MockIntersectionObserver as unknown as typeof IntersectionObserver;
