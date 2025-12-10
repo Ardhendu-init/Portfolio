@@ -120,8 +120,8 @@ export default function Home() {
                 <span>LinkedIn</span>
               </a>
               <a
-                href="/resume/Ardhendu_Pramanik_Resume.pdf"
-                download="Ardhendu_Pramanik_Resume.pdf"
+                href="/resume/Ardhendu-Pramanik_Resume.pdf"
+                download="Ardhendu-Pramanik_Resume.pdf"
                 className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 rounded-full text-white transition-all duration-300"
               >
                 <Download className="w-5 h-5" />
