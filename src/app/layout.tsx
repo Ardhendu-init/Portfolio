@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ardhendu.vercel.app"),
+  metadataBase: new URL("https://ardhendu-pramanik.vercel.app/"),
   title: "Ardhendu Pramanik — Frontend Engineer (React / Next.js / AI)",
   description:
     "Frontend Engineer with strong full-stack capabilities and 2+ years shipping production-grade apps in Next.js (App Router), React, and TypeScript. Builder of Ghost AI — an AI-native, real-time system-design platform.",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Ardhendu Pramanik — Frontend Engineer (React / Next.js / AI)",
     description:
       "Frontend Engineer building production-grade and AI-native web applications with Next.js, React, and TypeScript.",
-    url: "https://ardhendu.vercel.app",
+    url: "https://ardhendu-pramanik.vercel.app",
     siteName: "Ardhendu Pramanik",
     type: "website",
     images: [{ url: "/images/Ardhendu-Pramanik.png" }],

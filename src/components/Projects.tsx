@@ -21,7 +21,7 @@ const projects: Project[] = [
     title: "Ghost AI — AI-Native Real-Time System-Design Platform",
     year: "2026",
     description:
-      "A multiplayer workspace where an AI agent turns natural-language prompts into live architecture diagrams and compiles the graph into a persisted Markdown technical spec. Built solo, end-to-end: real-time, conflict-free collaboration with live cursors on CRDT-backed Liveblocks + React Flow, durable Trigger.dev LLM background tasks with retries and SHA-256 idempotency, and a two-tier PostgreSQL + Vercel Blob storage model across 11 secured API routes.",
+      "Ghost AI is a full-stack AI-native collaboration platform I built as a deep-learning project following the JS Mastery curriculum. The course gave me the structure; my goal was to actually understand every system underneath. That meant digging into CRDT-based real-time sync with Liveblocks and React Flow — how conflict-free distributed state works, how live cursors and presence are propagated, and why the multiplayer canvas behaves correctly under concurrent edits. On the AI side, I built agentic workflows using OpenRouter with structured outputs and tool calling, converting natural-language prompts into live diagrams, and added a schema-validated action DSL with server-side sanitization to keep graph state consistent regardless of model output. I also learned how Trigger.dev handles durable background execution — retries, idempotency keys, and why you need them. The full stack spans Next.js 16, React 19, TypeScript, Prisma, PostgreSQL, Vercel Blob, and Clerk auth. I can walk through the design decisions behind each layer and explain the tradeoffs involved.",
     tags: [
       "Next.js 16",
       "React 19",
@@ -47,7 +47,7 @@ const projects: Project[] = [
     title: "Transport Management System — A2ZPORT",
     year: "2024-2025",
     description:
-      "Dispatch-workflow modules with dynamic, Zod-validated forms; a modular component architecture scaled the team from 3 → 8 developers with minimal refactoring. A scalable Prisma + Supabase data flow with production-grade handling of concurrency and data integrity, plus role-based access and reusable form/table primitives.",
+      "The dispatch module covered shipment assignment, driver scheduling, and status tracking across a live multi-team logistics platform. Dynamic Zod-validated forms, a scalable Prisma + Supabase data flow with production-grade handling of concurrency and data integrity, role-based access, and reusable form/table primitives.",
     tags: ["Next.js", "Supabase", "Prisma", "Redux", "Tailwind", "Zod"],
     links: [
       {
