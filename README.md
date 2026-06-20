@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Next.js, showcasing my skills,
 
 ## 🚀 Live Demo
 
-Visit my portfolio: [https://ardhendu.vercel.app/](https://ardhendu.vercel.app/)
+Visit my portfolio: [https://ardhendu.vercel.app/](https://ardhendu-pramanik.vercel.app/)
 
 ## ✨ Features
 
