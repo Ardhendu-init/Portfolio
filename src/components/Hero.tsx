@@ -62,8 +62,8 @@ export default function Hero() {
         >
           2+ years shipping apps in Next.js (App Router), React, and TypeScript —
           building everything from a 300+ shipment/day logistics platform to
-          Ghost AI, an AI-native real-time system-design tool, end-to-end with a
-          Spec-Driven, AI-assisted workflow.
+          AI-native products like CareerLens (RAG) and Ghost AI (real-time AI
+          collaboration), end-to-end with a Spec-Driven, AI-assisted workflow.
         </motion.p>
 
         {/* CTAs */}

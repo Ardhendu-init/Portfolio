@@ -16,24 +16,24 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://ardhendu-pramanik.vercel.app/"),
   title: "Ardhendu Pramanik — Frontend Engineer (React / Next.js / AI)",
   description:
-    "Frontend Engineer with strong full-stack capabilities and 2+ years shipping production-grade apps in Next.js (App Router), React, and TypeScript. Builder of Ghost AI — an AI-native, real-time system-design platform.",
+    "Frontend engineer & full-stack builder, 2+ yrs in Next.js, React & TypeScript. Built CareerLens (RAG resume matching) and Ghost AI, a real-time AI platform.",
   keywords:
-    "Frontend Engineer, Full Stack Developer, React 19, Next.js App Router, TypeScript, AI Engineering, LLM, Liveblocks, Trigger.dev, Redux Toolkit, Zod, Prisma, PostgreSQL, Portfolio",
+    "Frontend Engineer, Full Stack Developer, React 19, Next.js App Router, TypeScript, AI Engineering, RAG, FastAPI, Python, pgvector, LLM, Liveblocks, Trigger.dev, Redux Toolkit, Zod, Prisma, PostgreSQL, Portfolio",
   authors: [{ name: "Ardhendu Pramanik" }],
   openGraph: {
     title: "Ardhendu Pramanik — Frontend Engineer (React / Next.js / AI)",
     description:
-      "Frontend Engineer building production-grade and AI-native web applications with Next.js, React, and TypeScript.",
+      "Building production-grade & AI-native apps with Next.js, React, and TypeScript — including CareerLens (RAG) and Ghost AI (real-time AI collaboration).",
     url: "https://ardhendu-pramanik.vercel.app",
     siteName: "Ardhendu Pramanik",
     type: "website",
-    images: [{ url: "/images/Ardhendu-Pramanik.png" }],
+    images: [{ url: "/images/AP-1.jpeg" }],
   },
   twitter: {
     card: "summary",
     title: "Ardhendu Pramanik — Frontend Engineer",
     description:
-      "Frontend Engineer building production-grade and AI-native web applications.",
+      "AI-native & full-stack engineer building with Next.js, React, TypeScript — creator of CareerLens (RAG) and Ghost AI (real-time AI collaboration).",
   },
 };
 

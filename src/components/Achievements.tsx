@@ -37,6 +37,16 @@ type Achievement = {
 const achievements: Achievement[] = [
   {
     icon: Sparkles,
+    title: "Shipped CareerLens",
+    description:
+      "Built and deployed a full-stack RAG application from scratch — first project combining Python/FastAPI backend with AI-native frontend, going from zero FastAPI experience to live production deployment.",
+    link: {
+      label: "View live",
+      href: "https://career-lens-tan.vercel.app",
+    },
+  },
+  {
+    icon: Sparkles,
     title: "Shipped Ghost AI",
     description:
       "Built and deployed an AI-native, real-time collaboration platform end-to-end — deepening expertise in distributed systems and AI engineering.",

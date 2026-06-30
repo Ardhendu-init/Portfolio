@@ -32,6 +32,7 @@ const skills: Skill[] = [
     items: [
       "Node.js",
       "Next.js API / Server Actions",
+      "FastAPI",
       "REST",
       "Zod",
       "Liveblocks (CRDT)",
@@ -43,10 +44,14 @@ const skills: Skill[] = [
     title: "AI Engineering",
     items: [
       "LLM app development",
+      "RAG",
+      "pgvector",
+      "Google Gemini",
       "OpenRouter",
       "Prompt engineering",
       "Structured output",
       "Agentic workflows",
+      "SQLAlchemy",
       "AI-assisted dev (Claude)",
     ],
   },

@@ -18,6 +18,41 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "CareerLens — AI Resume-to-JD Matching Tool",
+    year: "2026",
+    description:
+      "CareerLens is a full-stack RAG (Retrieval-Augmented Generation) application I built from scratch to solve a real problem in my own job search — analyzing how well a resume matches a job description. I built the entire RAG pipeline without framework abstractions: paragraph-based chunking, vector embeddings via Google Gemini, and pgvector cosine-similarity search to retrieve the most relevant resume sections for any job description. The FastAPI backend uses proper service-layer architecture with Pydantic validation, SQLAlchemy ORM, and pytest coverage, with defensive error handling around LLM output parsing. The Next.js 16 frontend uses Server Actions and React 19, including a custom animated SVG score visualization. I deployed the full stack to production — Render, Vercel, and Supabase — and solved real infrastructure issues along the way, including IPv4/IPv6 connection pooling between Render and Supabase.",
+    tags: [
+      "FastAPI",
+      "Python",
+      "PostgreSQL",
+      "pgvector",
+      "Google Gemini",
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "SQLAlchemy",
+    ],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://career-lens-tan.vercel.app",
+        variant: "live",
+      },
+      {
+        label: "Code",
+        href: "https://github.com/Ardhendu-init/careerlens",
+        variant: "code",
+      },
+      {
+        label: "API Docs",
+        href: "https://careerlens-a8jl.onrender.com/docs",
+        variant: "live",
+      },
+    ],
+    featured: true,
+  },
+  {
     title: "Ghost AI — AI-Native Real-Time System-Design Platform",
     year: "2026",
     description:
@@ -65,50 +100,6 @@ const projects: Project[] = [
     tags: ["Next.js", "Formik", "Chakra UI", "React Query", "Jest"],
     links: [
       { label: "Live Site", href: "https://www.ivca.in/", variant: "live" },
-    ],
-  },
-  {
-    title: "CraveWave",
-    year: "2023",
-    description:
-      "A feature-rich, responsive food-delivery app with Google authentication and secure Stripe payments — seamless browsing, ordering, and order tracking.",
-    tags: ["Next.js", "Tailwind", "MongoDB", "Stripe", "Prisma"],
-    links: [
-      {
-        label: "Live Site",
-        href: "https://food-app-ardhendu-init.vercel.app/",
-        variant: "live",
-      },
-      {
-        label: "Code",
-        href: "https://github.com/Ardhendu-init/Food-App",
-        variant: "code",
-      },
-    ],
-  },
-  {
-    title: "Fashnest",
-    year: "2022",
-    description:
-      "A full-stack e-commerce app with an Express.js backend, React.js frontend, and MongoDB — built with Redux Toolkit, Styled Components, and React Router.",
-    tags: [
-      "React.js",
-      "Express.js",
-      "MongoDB",
-      "Redux Toolkit",
-      "Styled Components",
-    ],
-    links: [
-      {
-        label: "Live Site",
-        href: "https://fashnest.netlify.app/",
-        variant: "live",
-      },
-      {
-        label: "Code",
-        href: "https://github.com/Ardhendu-init/Frontend-Fashnest",
-        variant: "code",
-      },
     ],
   },
 ];
